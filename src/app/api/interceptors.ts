@@ -8,10 +8,11 @@ import { authService } from "@/services/auth.service"
 
 import { errorCatch } from "./error"
 
-const BASE_URL = "https://cognicore-backend.vercel.app"
+const BASE_URL = process.env.BASE_URL || "https://cognicore-backend-journey29-journey29s-projects.vercel.app"
+
 
 const options: CreateAxiosDefaults = {
-  baseURL: BASE_URL,
+  baseURL:  BASE_URL,
   withCredentials: true,
   headers: {
     "Content-Type": "application/json"
