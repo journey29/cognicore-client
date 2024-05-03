@@ -8,11 +8,11 @@ import { authService } from "@/services/auth.service"
 
 import { errorCatch } from "./error"
 
-const BASE_URL = process.env.BASE_URL || "https://cognicore-server2.onrender.com"
+const BASE_URL = process.env.BASE_URL || "https://cognicore-server-production.up.railway.app"
 
 
 const options: CreateAxiosDefaults = {
-  baseURL:  BASE_URL,
+  baseURL: BASE_URL,
   withCredentials: true,
   headers: {
     "Content-Type": "application/json"
