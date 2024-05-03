@@ -10,9 +10,7 @@ export const getAccessToken = () => {
 
 export const saveTokenStorage = (accessToken: string) => {
   Cookie.set(Tokens.ACCESSTOKEN, accessToken, {
-    domain: "localhost",
     expires: 2,
-    sameSite: "strict"
   })
 }
 
