@@ -1,3 +1,5 @@
+## I don't know how to deploy this shit to work with cookies without incurring the cost of a custom domain, so please go through the steps below. Thanks!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
